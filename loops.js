@@ -14,3 +14,8 @@ array.push(statement2)
   }
   return array
 }
+
+
+function whileLoop(numb1){
+  
+}
