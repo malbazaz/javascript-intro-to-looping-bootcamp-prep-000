@@ -25,18 +25,19 @@ function whileLoop(numb1){
   return "done"
 }
 
-
-function doWhileLoop(array){
-  do{
-    
-  }
-  while(array.length>0 && maybeTrue())
-  
-  }
-
-  function maybeTrue() {
+function maybeTrue(){
   return Math.random() >= 0.5 
 while (maybeTrue()) {
   console.log("And I ran; I ran so far away!");
 }
+
+function doWhileLoop(array){
+  do{
+array.pop()
+maybeTrue()
+
+}
+    
+  while(array.length>0 && maybeTrue())
   
+}
