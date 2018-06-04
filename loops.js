@@ -15,7 +15,12 @@ array.push(statement2)
   return array
 }
 
-
+var numb1
 function whileLoop(numb1){
   
+  while (numb1>0){
+    console.log(numb1)
+    numb1--
+  }
+  return "done"
 }
