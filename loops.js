@@ -26,9 +26,7 @@ function whileLoop(numb1){
 }
 
 function maybeTrue(){
-  return Math.random() >= 0.5 
-while (maybeTrue()) {
-  console.log("And I ran; I ran so far away!");
+return Math.random() >= 0.5 
 }
 
 function doWhileLoop(array){
