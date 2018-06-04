@@ -12,5 +12,4 @@ array1.push(statement2)
   }
   
   }
-console.log(array1)
 }
