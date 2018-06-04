@@ -12,4 +12,5 @@ array.push(statement2)
   }
   
   }
+  return array
 }
